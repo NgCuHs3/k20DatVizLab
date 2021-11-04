@@ -1,0 +1,10 @@
+d3.js - To make map
+chart.js - To make doughnut charts
+jquery.js - Making JS easy since 2005
+fullpage.js - To make narrative layout
+waypoints.js - Add interaction when scrolling
+fuse.js - Search for map
+Campaign Zero Widget
+Vivus - Animated SVG
+Icon Works on Flat Icon
+PicSVG - Make SVGs from pictures
