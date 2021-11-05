@@ -35,3 +35,5 @@ def FillAccesdingDat(df, cols):
 FillAccesdingDat(owid_covid_data,['total_vaccinations_per_hundred'])
 
 print(owid_covid_data['total_vaccinations_per_hundred'])
+
+owid_covid_data.to_csv(path_or_buf='owid-covid-data-reduce.csv',index=False)
