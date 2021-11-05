@@ -5,19 +5,7 @@ import matplotlib.pyplot as plt
 import math
 # cải thiện data
 owid_covid_data = pd.read_csv('owid-covid-data.csv')
-# becasue data not contimeus so well need to full it
 
-# locations = owid_covid_data['location'].unique()
-
-# colArr = []
-
-# for loc in locations:
-#     df_loc = owid_covid_data[owid_covid_data['location'] == loc]
-#     deVAL = 0.0
-#     for val in df_loc['total_vaccinations_per_hundred'].values:
-#         if (math.isnan(val)): val = deVAL
-#         else: deVAL = val
-#         colArr.append(val)
 
 def FillAccesdingDat(df, cols):
   locations = df['location'].unique()
