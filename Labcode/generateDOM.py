@@ -1,7 +1,7 @@
 import os
 import re
 from bs4 import BeautifulSoup
-
+import sys
 # this use forgenerate dome element 
 
 print('Embed chart js ...')
@@ -9,8 +9,8 @@ print('Embed chart js ...')
 rootfolder = '..'
 
 try:
-  rootfolder = os.environ['ROOT_DIR']
-  print('got root folder ',rootfolder) 
+  rootfolder = str(sys.argv[1])
+  print('Get root folder: ',rootfolder) 
 except:
   rootfolder = '..'
  
