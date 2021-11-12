@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 print('Embed chart js ...')
 
-indefile = '.\public\index.html'
+indefile = '..\public\index.html'
 
 try:
   indefile = os.environ['INDEX_FILE']
@@ -39,5 +39,5 @@ for subdir, dirs, files in os.walk('./elementHTML_export'):
 
 
 # write back to file
-with open("..\public\index.html", "w") as file:
+with open(indefile, "w") as file:
     file.write(str(soup))            
