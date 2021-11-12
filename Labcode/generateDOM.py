@@ -6,9 +6,15 @@ from bs4 import BeautifulSoup
 
 print('Embed chart js ...')
 
+indefile = '.\public\index.html'
 
-
-soup = BeautifulSoup(open('..\public\index.html','r'), 'html.parser')
+try:
+  indefile = os.environ['INDEX_FILE']
+except:
+  indefile = '.\public\index.html'
+ 
+ 
+soup = BeautifulSoup(open(indefile,'r'), 'html.parser')
 
 
 for subdir, dirs, files in os.walk('./elementHTML_export'):
