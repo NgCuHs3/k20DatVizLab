@@ -6,6 +6,6 @@ jupyter nbconvert --to notebook --inplace --execute .\Labcode\chartlab.ipynb
 echo "clear out put"
 jupyter nbconvert --clear-output --inplace .\Labcode\chartlab.ipynb
 
-python ./Labcode/generateDOM.py INDEX_FILE='./public/index.html'
+python ./Labcode/generateDOM.py ROOT_DIR='.'
 
 .\sitedeploy.cmd

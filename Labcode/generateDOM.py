@@ -6,18 +6,18 @@ from bs4 import BeautifulSoup
 
 print('Embed chart js ...')
 
-indefile = '..\public\index.html'
+rootfolder = '..'
 
 try:
-  indefile = os.environ['INDEX_FILE']
+  rootfolder = os.environ['ROOT_DIR']
 except:
-  indefile = '.\public\index.html'
+  rootfolder = '..'
  
  
-soup = BeautifulSoup(open(indefile,'r'), 'html.parser')
+soup = BeautifulSoup(open(rootfolder+'/public/index.html','r'), 'html.parser')
 
 
-for subdir, dirs, files in os.walk('./elementHTML_export'):
+for subdir, dirs, files in os.walk(rootfolder+'/Labcode/elementHTML_export'):
     for file in files:
         filepath = subdir + os.sep + file
 
@@ -26,7 +26,7 @@ for subdir, dirs, files in os.walk('./elementHTML_export'):
             rel = re.match(r"<div>(?P<domelement>(.|\n)*?)<script(.|\n)*?>(?P<domscr>(.|\n)*?)<\/script>(.|\n)*?<\/div>"
             ,contentdiv)
             #write script 
-            with open('..\public\chartjs'+os.sep+file.replace('.html','.js'), 'w') as scriptF:
+            with open(rootfolder+'\public\chartjs'+os.sep+file.replace('.html','.js'), 'w') as scriptF:
              scriptF.write(rel.group('domscr'))
             #add dome id 
             chartcon = soup.find(id=file.replace('.html','js'))
@@ -39,5 +39,5 @@ for subdir, dirs, files in os.walk('./elementHTML_export'):
 
 
 # write back to file
-with open(indefile, "w") as file:
+with open(rootfolder+'/public/index.html', "w") as file:
     file.write(str(soup))            
