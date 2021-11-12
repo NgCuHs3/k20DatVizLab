@@ -10,9 +10,11 @@ rootfolder = '..'
 
 try:
   rootfolder = os.environ['ROOT_DIR']
+  print('got root folder ',rootfolder) 
 except:
   rootfolder = '..'
  
+
  
 soup = BeautifulSoup(open(rootfolder+'/public/index.html','r'), 'html.parser')
 
