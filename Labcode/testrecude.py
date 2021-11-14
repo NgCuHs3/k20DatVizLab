@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import math
 # cải thiện data
-owid_covid_data = pd.read_csv('owid-covid-data.csv')
+owid_covid_data = pd.read_csv('owid_covid_data .csv')
 
 def AddFullTimeSr(df):
    #drop nan
@@ -62,6 +62,6 @@ expandate_dat =  AddFullTimeSr(owid_covid_data)
 FillAccesdingDat(expandate_dat,['total_vaccinations_per_hundred'])
 
 #lưu lại
-expandate_dat.to_csv(path_or_buf='owid-covid-data-reduce.csv',index=False)
+expandate_dat.to_csv(path_or_buf='owid_covid_data_reduce_gregion_clone.csv',index=False)
 
 
