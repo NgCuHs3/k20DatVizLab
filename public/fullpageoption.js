@@ -2,10 +2,10 @@ var myFullpage = new fullpage('#fullpage', {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors:['firstPage', 'secondPage','thirdPage','fourPage','fifPage','SixPage','SeventhPage'],
+    anchors:['1', '2','3','4','5','6','7'],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['firstPage', 'secondPage','thirdPage','fourPage','fifPage','SixPage','SeventhPage'],
+    navigationTooltips: ['firstPage', 'secondPage','thirdPage','fourPage','fifPage','sixPage','seventhPage'],
     showActiveTooltip: false,
     slidesNavigation: false,
     slidesNavPosition: 'bottom',
