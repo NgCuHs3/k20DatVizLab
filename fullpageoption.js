@@ -2,7 +2,7 @@ var myFullpage = new fullpage('#fullpage', {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors:['1', '2','3','4','5','6','7'],
+    anchors:['1', '2','3','4','5','6','7','8'],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['firstPage', 'secondPage','thirdPage','fourPage','fifPage','sixPage','seventhPage'],
@@ -45,7 +45,7 @@ var myFullpage = new fullpage('#fullpage', {
     //Design
     controlArrows: false,
     verticalCentered: true,
-    sectionsColor : ['rgb(174, 248, 181)', '#B9FAEB','#F5F0A4', '#F5C7A3','#BDA5F5', '#CEF5E7','rgb(174, 248, 181)', 'rgb(174, 248, 181)'],
+    sectionsColor : ['rgb(174, 248, 181)','rgb(174, 248, 181)', '#B9FAEB','#F5F0A4', '#F5C7A3','#BDA5F5', '#CEF5E7','rgb(174, 248, 181)', 'rgb(174, 248, 181)'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',

@@ -1,0 +1,12 @@
+body {
+    font-family:  'Poppins', sans-serif !important;
+}
+
+
+.maintext{
+    width: 80%;
+    margin: auto;
+    animation-delay: 2s;
+    animation: bounce;
+    animation-iteration-count: infinite;
+}
