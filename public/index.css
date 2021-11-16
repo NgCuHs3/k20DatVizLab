@@ -1,12 +1,24 @@
 body {
     font-family:  'Poppins', sans-serif !important;
+    visibility: hidden;
+    
 }
 
+/* .section {
+    position: absolute;
+} */
 
-.maintext{
-    width: 80%;
+#maintext{
+    position: absolute;
+    width: 70%;
     margin: auto;
-    animation-delay: 2s;
-    animation: bounce;
-    animation-iteration-count: infinite;
+    margin-left: 250px;
+}
+
+#vaccinesvg {
+    position: absolute;
+    height: 90%;
+    width: 250px;
+    background: pink;
+    top: 10px;
 }
