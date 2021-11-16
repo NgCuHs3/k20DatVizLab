@@ -2,7 +2,6 @@ var myFullpage = new fullpage('#fullpage', {
     //Navigation
     menu: '#menu',
     lockAnchors: false,
-    anchors:['1', '2','3','4','5','6','7','8'],
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['firstPage', 'secondPage','thirdPage','fourPage','fifPage','sixPage','seventhPage'],
@@ -30,7 +29,6 @@ var myFullpage = new fullpage('#fullpage', {
     offsetSections: false,
     resetSliders: false,
     fadingEffect: false,
-    normalScrollElements: '#element1, .element2',
     scrollOverflow: false,
     scrollOverflowReset: false,
     scrollOverflowOptions: null,
@@ -69,7 +67,8 @@ var myFullpage = new fullpage('#fullpage', {
 
     //events
     onLeave: function(origin, destination, direction){},
-    afterLoad: function(origin, destination, direction){},
+    afterLoad: function(origin, destination, direction){    
+    },
     afterRender: function(){},
     afterResize: function(width, height){},
     afterReBuild: function(){},
