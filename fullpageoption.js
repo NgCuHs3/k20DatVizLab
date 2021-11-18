@@ -69,7 +69,10 @@ var myFullpage = new fullpage('#fullpage', {
     onLeave: function(origin, destination, direction){},
     afterLoad: function(origin, destination, direction){    
     },
-    afterRender: function(){},
+    afterRender: function(){
+        const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+        $('.section').height(vh)
+    },
     afterResize: function(width, height){},
     afterReBuild: function(){},
     afterResponsive: function(isResponsive){},
