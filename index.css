@@ -1,12 +1,12 @@
 body {
     font-family:  'Poppins', sans-serif !important;
     visibility: hidden;
-    
+    overflow: hidden;
 }
 
-/* .section {
-    position: absolute;
-} */
+::-webkit-scrollbar {
+    display: none;
+}
 
 #maintext{
     position: absolute;

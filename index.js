@@ -6,6 +6,3 @@ $(document).ready(function () {
   
     $('#vaccinesvg').addClass('animate__animated animate__tada')
 });
-
-
-
