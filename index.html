@@ -1,106 +1,77 @@
 <!DOCTYPE html>
 
 <head>
-    <meta charset="utf-8" />
-    <title>Covid 19 vaccinations</title>
-    <link href="./icon/vaccine.png" rel="icon" />
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
-    
-    <link href="index.css" rel="stylesheet"/>
-    <!-- TODO JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- TODO ploty js-->
-    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
-    <!-- TODO FULLPAGE JS-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" rel="stylesheet"
-        type="text/css" />
-    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js"></script>
-    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"
-        type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js" type="text/javascript"></script>
-   
+<meta charset="utf-8"/>
+<title>Covid 19 vaccinations</title>
+<link href="./icon/vaccine.png" rel="icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
+<link href="index.css" rel="stylesheet"/>
+<!-- TODO JQUERY -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- TODO ploty js-->
+<script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+<!-- TODO FULLPAGE JS-->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" rel="stylesheet" type="text/css"/>
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js"></script>
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js" type="text/javascript"></script>
 </head>
-
 <body>
-    <div id="fullpage">
-        <div class="section active" id="introsection">
-            <object id="vaccinesvg" type="image/svg+xml" data="./icon/vaccine.svg"></object>
-            <div id="maintext">
+<div id="fullpage">
+<div class="section active" id="introsection">
+<object data="./icon/vaccine.svg" id="vaccinesvg" type="image/svg+xml"></object>
+<div id="maintext">
                 This is a story about the situation of the vaccine. We look at its coverage worldwide, then select the
                 typical regions, then take into consideration aspects that are influenced by vaccination and other
                 factors of a country such as population, government responsiveness, GDP, public sanitation facilities,
                 health facilities, and poverty rates have the opposite effect on vaccination. Finally, temporarily
                 answer the question of whether vaccines are effective in preventing infections or deaths, or both.
             </div>
-        </div>
-        <div class="section">
-            <div id="geomapjs">
-                <div class="plotly-graph-div" id="f5264554-7b83-4fce-a123-c11b45191723"
-                    style="height:550px; width:850px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="sunburstjs">
-                <div class="plotly-graph-div" id="8dc8070d-c3cb-42e7-b370-9d53bf982c87"
-                    style="height:550px; width:600px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="barchartjs">
-                <div class="plotly-graph-div" id="c922f1cb-95c2-48ea-afca-660c51fb857d"
-                    style="height:600px; width:800px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="linechartjs">
-                <div class="plotly-graph-div" id="e60657ca-67ae-43c3-9584-5958e55859be"
-                    style="height:550px; width:700px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="radarchartjs">
-                <div class="plotly-graph-div" id="36e0211d-e43b-497b-98dc-2edd047081f0"
-                    style="height:600px; width:750px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="piechartjs">
-                <div class="plotly-graph-div" id="e0a77fef-8b5f-47b2-90f6-5c2cb36aa4bb"
-                    style="height:550px; width:800px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="heatmapjs">
-                <div class="plotly-graph-div" id="82c78236-559c-4c2b-8dc8-1fe4e9e5794e"
-                    style="height:100%; width:600px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div id="boxplotjs">
-                <div class="plotly-graph-div" id="9e97e34b-2962-426e-8891-8ca56f27c795"
-                    style="height:550px; width:600px;"></div>
-            </div>
-        </div>
-        <div class="section">
-            <div class="slide"> Slide 1 </div>
-            <div class="slide"> Slide 2 </div>
-            <div class="slide"> Slide 3 </div>
-            <div class="slide"> Slide 4 </div>
-        </div>
-    </div>
-    <script src="./fullpageoption.js" type="text/javascript"></script>
-    <script src="./chartjs/geomap.js"></script>
-    <script src="./chartjs/barchart.js"></script>
-    <script src="./chartjs/linechart.js"></script>
-    <script src="./chartjs/radarchart.js"></script>
-    <script src="./chartjs/piechart.js"></script>
-    <script src="./chartjs/heatmap.js"></script>
-    <script src="./chartjs/boxplot.js"></script>
-    <script src="./chartjs/sunburst.js"></script>
-    <script src="./index.js"></script>
+</div>
+<div class="section">
+<div id="geomapjs"> <div class="plotly-graph-div" id="a0aa44b8-7613-4749-99f7-01ee721abcd1" style="height:550px; width:850px;"></div> </div>
+</div>
+<div class="section">
+<div id="sunburstjs"> <div class="plotly-graph-div" id="e4639406-b065-416e-8d97-289df0595b91" style="height:550px; width:600px;"></div> </div>
+</div>
+<div class="section">
+<div id="barchartjs"> <div class="plotly-graph-div" id="315239b3-d1df-4ac1-be16-9a15fab159a4" style="height:600px; width:800px;"></div> </div>
+</div>
+<div class="section">
+<div id="linechartjs"> <div class="plotly-graph-div" id="84b9a17a-3309-48d1-91b7-1a9fc4062ca4" style="height:650px; width:850px;"></div> </div>
+</div>
+<div class="section">
+<div id="radarchartjs"> <div class="plotly-graph-div" id="33f735da-9aca-43ed-b58c-d92e8f286abc" style="height:600px; width:750px;"></div> </div>
+</div>
+<div class="section">
+<div id="piechartjs"> <div class="plotly-graph-div" id="6ee162dc-c9e8-4d01-b121-d2f052b65e08" style="height:550px; width:800px;"></div> </div>
+</div>
+<div class="section">
+<div id="heatmapjs"> <div class="plotly-graph-div" id="ca6e06f7-9090-4dad-ab81-c29b23d6c176" style="height:100%; width:600px;"></div> </div>
+</div>
+<div class="section">
+<div id="boxplotjs"> <div class="plotly-graph-div" id="53f9cb85-b7c6-4104-afff-59464a76c0bc" style="height:550px; width:600px;"></div> </div>
+</div>
+<div class="section">
+<div class="slide"> Slide 1 </div>
+<div class="slide"> Slide 2 </div>
+<div class="slide"> Slide 3 </div>
+<div class="slide"> Slide 4 </div>
+</div>
+</div>
+<script src="./fullpageoption.js" type="text/javascript"></script>
+<script src="./chartjs/geomap.js"></script>
+<script src="./chartjs/barchart.js"></script>
+<script src="./chartjs/linechart.js"></script>
+<script src="./chartjs/radarchart.js"></script>
+<script src="./chartjs/piechart.js"></script>
+<script src="./chartjs/heatmap.js"></script>
+<script src="./chartjs/boxplot.js"></script>
+<script src="./chartjs/sunburst.js"></script>
+<script src="./index.js"></script>
 </body>
