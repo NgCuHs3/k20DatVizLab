@@ -8,6 +8,10 @@ body {
     display: none;
 }
 
+.section {
+    padding-top: 0% !important;
+}
+
 #maintext{
     position: absolute;
     width: 70%;
@@ -20,4 +24,23 @@ body {
     height: 80%;
     width: 220px;
     top: 40px;
+}
+
+.content {
+    width: calc(100% - 50px);
+    left: 0;
+    height: 100%;
+    background: red;
+}
+
+.content > div {
+    height: 100%;
+    background: blanchedalmond;
+    width:fit-content;
+
+}
+
+#radarchartjs {
+    margin-left: 50px;
+   
 }
