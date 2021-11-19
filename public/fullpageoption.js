@@ -43,7 +43,8 @@ var myFullpage = new fullpage('#fullpage', {
     //Design
     controlArrows: false,
     verticalCentered: true,
-    sectionsColor : ['rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)', 'rgb(174, 248, 181)'],
+    sectionsColor : ['rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)',
+     'rgb(174, 248, 181)','rgb(174, 248, 181)','rgb(174, 248, 181)'],
     paddingTop: '3em',
     paddingBottom: '10px',
     fixedElements: '#header, .footer',
