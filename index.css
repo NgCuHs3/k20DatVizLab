@@ -26,21 +26,40 @@ body {
     top: 40px;
 }
 
-.content {
+.content_right {
     width: calc(100% - 50px);
     left: 0;
     height: 100%;
-    background: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.content > div {
+
+.content_left {
+    width: calc(100% - 50px);
+    left: 0;
     height: 100%;
-    background: blanchedalmond;
-    width:fit-content;
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 }
 
-#radarchartjs {
-    margin-left: 50px;
-   
+
+.content_left > div:not(.paragrah){
+    height: 100%;
+    width:fit-content;
+}
+
+.content_right > div:not(.paragrah){
+    height: 100%;
+    width:fit-content;
+}
+
+
+.paragrah {
+   height: 100%;
+   width: 100%;
+   font-size: 14.5px;
+   padding: 6px;
 }
