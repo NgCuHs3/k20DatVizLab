@@ -1,4 +1,13 @@
+
+
+var firstLoadPapge = false
+
+
+
 $(document).ready(function () {
+    
+    firstLoadPapge = true
+
     $('body').css({
         visibility: 'visible'
     })
@@ -6,3 +15,5 @@ $(document).ready(function () {
   
     $('#vaccinesvg').addClass('animate__animated animate__tada')
 });
+
+

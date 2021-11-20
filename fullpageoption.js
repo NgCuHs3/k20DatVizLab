@@ -67,7 +67,9 @@ var myFullpage = new fullpage('#fullpage', {
     lazyLoading: true,
 
     //events
-    onLeave: function(origin, destination, direction){},
+    onLeave: function(origin, destination, direction){
+
+    },
     afterLoad: function(origin, destination, direction){    
     },
     afterRender: function(){
@@ -77,6 +79,7 @@ var myFullpage = new fullpage('#fullpage', {
     afterResize: function(width, height){},
     afterReBuild: function(){},
     afterResponsive: function(isResponsive){},
-    afterSlideLoad: function(section, origin, destination, direction){},
+    afterSlideLoad: function(section, origin, destination, direction){ 
+    },
     onSlideLeave: function(section, origin, destination, direction){}
     });
