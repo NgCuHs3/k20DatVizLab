@@ -64,3 +64,59 @@ body {
    font-size: 14.5px;
    padding: 6px;
 }
+
+#endpage {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    left: 0;
+    height: 400px;
+    width: calc(100% - 50px);
+}
+
+#endpage > div{
+    padding: 20px;
+}
+
+.eheader{
+    text-align: center;
+    font-style: italic;
+    font-weight:bolder;
+    font-size: 20px;
+}
+
+#source {
+    width:  400px;
+    height: 100%;
+}
+
+#team {
+    height: 100%;
+    width: 400px;
+}
+
+#tools {
+    height: 100%;
+    width: 400px;
+}
+
+.etext {
+    font-size: 15px;
+}
+
+
+#githubicon {
+    height: 17px;
+    width: 17px;
+}
+
+#logoshool {
+    height: 120px;
+    width: 120px;
+    margin-left: 100px;
+    
+}
+
+#repoinfo {
+    font-size: 16px;
+}
