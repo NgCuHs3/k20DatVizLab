@@ -11,6 +11,7 @@ body {
 
 .section {
     padding-top: 0% !important;
+    height:fit-content  !important;
 }
 
 #maintext{
@@ -63,6 +64,8 @@ body {
     height: 100%;
     width: 400px;
 }
+
+
 
 .etext {
     font-size: 15px;
