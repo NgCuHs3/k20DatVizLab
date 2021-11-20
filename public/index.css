@@ -112,3 +112,9 @@ body {
 #geomapjs {
     margin-left: 15px;
 }
+
+
+.sectiontitle {
+    margin-left: 30%;
+    font-weight: bolder;
+}
