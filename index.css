@@ -90,6 +90,7 @@ body {
 .pack {  
     width: calc(100% - 50px) !important;
     left: 0;
+    text-align: center;
 }
 
 .pack > .paragrah {
@@ -98,6 +99,7 @@ body {
     width: 100%;
     font-size: 14.5px;
     padding: 6px;
+    text-align: left;
 }
 
 .pack > div:not(.paragrah){
@@ -118,6 +120,6 @@ body {
 
 
 .sectiontitle {
-    margin-left: 30%;
+    
     font-weight: bolder;
 }
