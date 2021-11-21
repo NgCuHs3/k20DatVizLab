@@ -16,7 +16,7 @@ except:
  
 
  
-soup = BeautifulSoup(open(rootfolder+'/public/index.html','r'), 'html.parser')
+soup = BeautifulSoup(open(rootfolder+'/public/index.html','r', encoding="utf8"), 'html.parser')
 
 
 for subdir, dirs, files in os.walk(rootfolder+'/Labcode/elementHTML_export'):
@@ -41,5 +41,5 @@ for subdir, dirs, files in os.walk(rootfolder+'/Labcode/elementHTML_export'):
 
 
 # write back to file
-with open(rootfolder+'/public/index.html', "w") as file:
+with open(rootfolder+'/public/index.html', "w",encoding="utf8") as file:
     file.write(str(soup))            
