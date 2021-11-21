@@ -10,7 +10,7 @@ var myFullpage = new fullpage('#fullpage', {
     slidesNavPosition: 'bottom',
 
     //Scrolling
-    css3: false,
+    css3: true,
     scrollingSpeed: 700,
     autoScrolling: false,
     fitToSection: true,
