@@ -107,6 +107,7 @@ body {
     font-size: 14.5px;
     padding: 6px;
     text-align: justify;
+    line-height: 22.5px; /* 1.5px +14.5px + 1.5px */
 }
 
 .pack > div:not(.paragrah){
