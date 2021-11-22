@@ -22,10 +22,12 @@ body {
 } */
 
 #maintext{
+    position: absolute;
     width: 70%;
+    top: 50px;
     margin-top: 50px;
     margin-bottom: 200px;
-    margin-left: 250px;
+    margin-left: 250px;  
 }
 
 #vaccinesvg {
