@@ -27,6 +27,7 @@ for subdir, dirs, files in os.walk(rootfolder+'/Labcode/elementHTML_export'):
             contentdiv = open(filepath, 'r').read()
             rel = re.match(r"<div>(?P<domelement>(.|\n)*?)<script(.|\n)*?>(?P<domscr>(.|\n)*?)<\/script>(.|\n)*?<\/div>"
             ,contentdiv)
+            
             #write script 
             with open(rootfolder+'\public\chartjs'+os.sep+file.replace('.html','.js'), 'w') as scriptF:
              scriptF.write(rel.group('domscr'))
