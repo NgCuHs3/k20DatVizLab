@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 
 <head>
-<meta charset="utf-8"/>
-<title>Covid 19 vaccinations</title>
-<link href="./icon/vaccine.png" rel="icon"/>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet"/>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
-<link href="index.css" rel="stylesheet"/>
-<!-- TODO JQUERY -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- TODO ploty js-->
-<script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
-<!-- TODO FULLPAGE JS-->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" rel="stylesheet" type="text/css"/>
-<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js"></script>
-<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js" type="text/javascript"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js" type="text/javascript"></script>
+    <meta charset="utf-8" />
+    <title>Covid 19 vaccinations</title>
+    <link href="./icon/vaccine.png" rel="icon" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+    <link href="index.css" rel="stylesheet" />
+    <!-- TODO JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- TODO ploty js-->
+    <script src="https://cdn.plot.ly/plotly-2.4.2.min.js"></script>
+    <!-- TODO FULLPAGE JS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css" rel="stylesheet"
+        type="text/css" />
+    <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "easeInOutCubic". -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/easings.min.js"></script>
+    <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"
+        type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.js" type="text/javascript"></script>
 </head>
+
 <body>
-<div id="fullpage">
-<div class="section active" id="introsection">
-<object data="./icon/vaccine.svg" id="vaccinesvg" type="image/svg+xml"></object>
-<div class="paragrah" id="maintext">
-<p>
+    <div id="fullpage">
+        <div class="section active" id="introsection">
+            <object data="./icon/vaccine.svg" id="vaccinesvg" type="image/svg+xml"></object>
+            <div class="paragrah" id="maintext">
+                <p>
                     Originated from Wuhan (China) in the end of 2019 onwards, Covid-19 pandemic has been causing 253
                     million cases, 5.09 million deaths (WHO 9/11). The pandemic develops in a complicated way in 215
                     nations and territories. New cases have been detected everyday. America tops the list with 46,9
@@ -43,19 +46,22 @@
                     to the end of pandemic. Numbers and figures in this analytic research will demonstrate that Covid-19
                     vaccinations are working very well.
                 </p>
-</div>
-</div>
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t1">OVERVIEW AROUND THE WORLD</h1>
-<div id="geomapjs"> <div class="plotly-graph-div" id="5264a231-1638-4ff5-b6fb-4ea1a52b3128" style="height:550px; width:850px;"></div> </div>
-<div class="paragrah">
-<p>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t1">OVERVIEW AROUND THE WORLD</h1>
+                    <div id="geomapjs">
+                        <div class="plotly-graph-div" id="5264a231-1638-4ff5-b6fb-4ea1a52b3128"
+                            style="height:550px; width:850px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>
                             This graph show full vaccination rate among countries in the world. People got 2 shots are
                             consider full vaccinated.
                         </p>
-<p> As can be seen from the graph, nations in North America region, especially United States
+                        <p> As can be seen from the graph, nations in North America region, especially United States
                             has the rate
                             of 75%. Representatives of East Asia region, including Japan, China, South Korea has the
                             full
@@ -66,7 +72,7 @@
                             France, Germany, Italia, Spain with the rate of 67.39%, 68.55%, 66.91%, 72.44%, 80.1%
                             respectively.
                         </p>
-<p>Countries with the lowest vaccination rate mainly locate on continent Africa. South
+                        <p>Countries with the lowest vaccination rate mainly locate on continent Africa. South
                             Africa has just a
                             22.19% full vaccination rate, but this number is the highest in Africa. The rest of the
                             region has
@@ -76,7 +82,7 @@
                             33.49%, 37.63%,
                             15.05% respectively.
                         </p>
-<p>Obviously from analysis above, regions or countries which are in the top of
+                        <p>Obviously from analysis above, regions or countries which are in the top of
                             vaccination race, are
                             developed economies or has produced their own vaccine to provide for citizens. For example,
                             Moderna is a
@@ -86,50 +92,53 @@
                             own vaccine
                             product named Sinopharm – Sinovax.
                         </p>
-<p>On the contrary, developing nations generally have lower full vaccination rate
+                        <p>On the contrary, developing nations generally have lower full vaccination rate
                             compared with developed
                             ones. They have limited budget and technology progress to develop vaccines and therefore
                             they are
                             dependent on other supplies or humanitarian aid.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t2">COMPETENCE TRACK OF CANDIDATES</h1>
-<div id="radarchartjs"> <div class="plotly-graph-div" id="1dd20243-df81-4766-acd5-a1560120e85b" style="height:600px; width:820px;"></div> </div>
-<div class="paragrah">
-<b>1.GDP per capita index</b>
-<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t2">COMPETENCE TRACK OF CANDIDATES</h1>
+                    <div id="radarchartjs">
+                        <div class="plotly-graph-div" id="1dd20243-df81-4766-acd5-a1560120e85b"
+                            style="height:600px; width:820px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <b>1.GDP per capita index</b>
+                        <p>
                             Western Europe takes the lead in terms of GDP per capita. It consists of 9 members :
                             Austria, Belgium, Germany, France, Liechtenstein, Luxembourg, Monaco, Netherlands and
                             Switzerland. The main feature of this region is that its nations have relatively equal
                             social economic development. Additionally, there are some countries having the strongest
                             financial ability in the entire European Union.
                         </p>
-<p>
+                        <p>
                             The region with second highest GDP per capita index is East Asia. China, Japan, South
                             Korea has impressively high GDP per capita but discrepancy as regards development in this
                             region such as wealthy gap between those 3 countries listed and Mongolia or North Korea, has
                             caused it to lag behind Western Europe counterpart.
                         </p>
-<p>
+                        <p>
                             Regions follow Western Europe and East Asia are Australia and New Zealand, Middle East,
                             North America, Southern Europe. They have similar index and specifically in a small range
                             (64 – 72). Middle East is politically unstable but they have a massive oil reserve so that
                             this index are not low as expected. The index of South East Asia is quite low because major
                             of this region are developing nations.
                         </p>
-<p>
+                        <p>
                             The lowest index in these 8 regions belongs to South Asia (15.42). That is reasonable
                             because this region is highly populous but the economies are not compatible with scale of
                             population.
                         </p>
-<b>2.Human development index</b>
-<p>Australia and New Zealand region is at the top of the list, followed by Western Europe
+                        <b>2.Human development index</b>
+                        <p>Australia and New Zealand region is at the top of the list, followed by Western Europe
                             (98.91), Southern Europe (93.71), North America (93.65), East Asia (91.35). Of the lower
                             part HDI in these 8 regions, Middle East and South East Asia has indices of 80.62 and 76.6
                             respectively. Again, South Asia has the lowest number for this criteria in these 8
@@ -137,8 +146,8 @@
                             makes
                             sense because the rich countries would have more budget and resources to improve citizen’s
                             living standard.</p>
-<b>3.Hospital beds per thousand</b>
-<p>East Asia is the best region in terms of this public health facility index. Considering
+                        <b>3.Hospital beds per thousand</b>
+                        <p>East Asia is the best region in terms of this public health facility index. Considering
                             China
                             as an example for East Asia, this most populous country quickly responded to the outbreak by
                             building makeshift hospitals. Those temporary hospitals have helped China fighting against
@@ -149,7 +158,7 @@
                             lacked
                             enough caution, new cases increased so rapidly that it overloaded the health care system.
                         </p>
-<p>Southern Europe region, Australia and New Zealand region both have relatively high
+                        <p>Southern Europe region, Australia and New Zealand region both have relatively high
                             economic
                             strength but the number of beds did not meet patient demand.
                             North America, South East Asia and Middle East has very low number of hospital beds per
@@ -158,12 +167,12 @@
                             regions. South Asia is home to many populous countries (India, Pakistan, Bangladesh) but
                             these countries has moderate social-economic development.
                         </p>
-<b>4.Stringency index</b>
-<p>As described in Our World in Data website, The stringency index is a composite measure
+                        <b>4.Stringency index</b>
+                        <p>As described in Our World in Data website, The stringency index is a composite measure
                             based on nine response indicators including school closures, workplace closures, and travel
                             bans, rescaled to a value from 0 to 100.
                         </p>
-<p>The polar plot indicates that region of Australia and New Zealand have the strictest
+                        <p>The polar plot indicates that region of Australia and New Zealand have the strictest
                             social distancing measure. It is proved that this is wise action from the two government due
                             to shortage in number of beds available to patients.
                             The second strictest is South East Asia with relatively successful measure against the
@@ -172,7 +181,7 @@
                             government has contained the viruses in first 3 wave of Covid 19, which enable GDP growth to
                             be positive during that period.
                         </p>
-<p>North America and Southern Europe come next with number 75.51 and 73.2 respectively.
+                        <p>North America and Southern Europe come next with number 75.51 and 73.2 respectively.
                             Although the new cases were increasing at a rapid rate in America and Mexico, the two
                             governments were still indifference in taking firm measures like Canada. Southern Europe had
                             adopted some social distancing rule but they were still subjective with wide vaccination
@@ -180,7 +189,7 @@
                             days, people still gathered in public places despite alert from local government.
                             Governments in Middle East were moderately cautious about the complicated condition (64.98).
                         </p>
-<p>The region which seems to be the most apathetic in these 8 regions is South Asia. India
+                        <p>The region which seems to be the most apathetic in these 8 regions is South Asia. India
                             can be taken as an solid example for South Asia. India experienced one of the worst
                             atrocious period of fighting against the Covid-19. Indeed, India imposed lockdown nationwide
                             at first stage of pandemic. However, when lockdown had adverse effect on economic
@@ -188,19 +197,22 @@
                             governments did not impose another quarantine. To sum up, this region have been facing
                             dilemma whether to shut down activities for public health concern or to open nation borders
                             for economic priority.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t3">KEY ELEMENTS OF REGIONS</h1>
-<div id="sunburstjs"> <div class="plotly-graph-div" id="bad7c033-05ef-4b21-b6cc-862cd4cdfac7" style="height:550px; width:600px;"></div> </div>
-<div class="paragrah">
-<p>Sunbusrt plot shows the share of vaccines given and deaths by regions as of November 2, 2021.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t3">KEY ELEMENTS OF REGIONS</h1>
+                    <div id="sunburstjs">
+                        <div class="plotly-graph-div" id="bad7c033-05ef-4b21-b6cc-862cd4cdfac7"
+                            style="height:550px; width:600px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>Sunbusrt plot shows the share of vaccines given and deaths by regions as of November 2, 2021.
                         </p>
-<p>Moving into more detail, North America and South Asia are considered to be the hotbed of
+                        <p>Moving into more detail, North America and South Asia are considered to be the hotbed of
                             pandemic, with really high death tolls. United States accounts for a major part of death
                             tolls
                             in North America, whereas India takes up large portion of number in South Asia.
@@ -209,7 +221,7 @@
                             countries with high population, but also lacks of sufficient health facilities and proactive
                             measures.
                         </p>
-<p>These results can be interpreted by reusing polar plot : Both North America and South Asia
+                        <p>These results can be interpreted by reusing polar plot : Both North America and South Asia
                             have poor health facilities and did not impose strict lockdown to curb the viruses. The two
                             regions are not performing well even we take GDP per capita and HDI into consideration.
                             These
@@ -221,7 +233,7 @@
                             vaccination rate due to the fact that this country can develop their own vaccine from early
                             stage and number of products can meet massive demand of citizens.
                         </p>
-<p>Again, the polar plot which we mentioned can be used to explain the impressive success of
+                        <p>Again, the polar plot which we mentioned can be used to explain the impressive success of
                             East
                             Asia in tackling the Covid problem: East Asia have impressively high index in terms of HDI,
                             GDP
@@ -229,17 +241,20 @@
                             strict
                             quarantine.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t4">Ranking</h1>
-<div id="barchartjs"> <div class="plotly-graph-div" id="f89faf77-f037-4390-8773-7c1013995477" style="height:600px; width:800px;"></div> </div>
-<div class="paragrah">
-<p>The bar plot compares number of people per hundred who are fully vaccinated among 8 regions
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t4">Ranking</h1>
+                    <div id="barchartjs">
+                        <div class="plotly-graph-div" id="f89faf77-f037-4390-8773-7c1013995477"
+                            style="height:600px; width:800px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>The bar plot compares number of people per hundred who are fully vaccinated among 8 regions
                             as of 2/11/2021.
                             Generally, those numbers divided by three criteria are highly correlated. If a region has
                             high total vaccination, it also has high rate of people vaccinated and fully vaccinated as
@@ -252,42 +267,45 @@
                             vaccinated rate 60% or below. Governments in these regions are speeding up vaccination
                             process to reach herd immunity.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t5">PROGRESS TRACK RECORD</h1>
-<div id="linechartjs"> <div class="plotly-graph-div" id="7659c19d-c82f-4bc1-9cdd-bee2d6bfae2b" style="height:650px; width:850px;"></div> </div>
-<div class="paragrah">
-<p>Line charts illustrate the timeline of vaccination process, trend of new deaths and new cases
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t5">PROGRESS TRACK RECORD</h1>
+                    <div id="linechartjs">
+                        <div class="plotly-graph-div" id="7659c19d-c82f-4bc1-9cdd-bee2d6bfae2b"
+                            style="height:650px; width:850px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>Line charts illustrate the timeline of vaccination process, trend of new deaths and new cases
                             (we take the new deaths and new cases as a portion of maximum new deaths and maximum new
                             cases
                             in the period respectively).
                         </p>
-<p>As can be seen from the first of three graphs, vaccines were rolled out from the end of 2020.
+                        <p>As can be seen from the first of three graphs, vaccines were rolled out from the end of 2020.
                             Countries in Southern Europe, Western Europe, North America, Middle East were among the
                             first to
                             start the Covid-19 vaccination process. Then, South Asia, East Asia, South East Asia,
                             Australia
                             &amp; New Zealand had access to vaccines.
                         </p>
-<p>Although Middle East had access to vaccines very early but they did not speed up the process
+                        <p>Although Middle East had access to vaccines very early but they did not speed up the process
                             like other regions. In contrast, East Asia and Australia &amp; New Zealand have stable and
                             quick
                             vaccination process. South Asia and South East Asia have been fallen behind other regions in
                             term of speeding up vaccine rate.
                         </p>
-<p>Delving into more detail, data from European nations (both Southern and Western) has proved
+                        <p>Delving into more detail, data from European nations (both Southern and Western) has proved
                             that vaccines have been effective against new deaths. Since October 2021, European nations,
                             especially England, have eased social quarantine. They let their citizens to participate in
                             public events, this leads to increase in new cases. But the new deaths have not been
                             increasing
                             considerably.
                         </p>
-<p>The data from Middle East and North American show the similar outcome of the effect of
+                        <p>The data from Middle East and North American show the similar outcome of the effect of
                             vaccine
                             in prevent people to die from the disease.
                             The great effect of vaccines can also be seen from Asian countries. After majority of
@@ -295,7 +313,7 @@
                             a
                             obviously downward trend.
                         </p>
-<p>There is an exception in the data that new cases and new deaths have not been decreasing
+                        <p>There is an exception in the data that new cases and new deaths have not been decreasing
                             although vaccination process speeded up. That phenomenon occurs in Australia &amp; New
                             Zealand
                             region. The new cases and new deaths before vaccination were really low that it can be
@@ -306,11 +324,11 @@
                             be
                             the time vaccines start to have effect.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<!-- <div class="section">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="section">
             <div class="content">
                 <div class="pack">
                     <h1 class="sectiontitle" id="t6">THE WEIGHT LEVEL OF THE CANDIDATE</h1>
@@ -357,17 +375,20 @@
                 </div>
             </div>
         </div> -->
-<div class="section">
-<div class="content">
-<div class="pack">
-<h1 class="sectiontitle" id="t6">CONTACT NETWORK</h1>
-<div id="heatmapjs"> <div class="plotly-graph-div" id="8656d986-a0eb-4e9c-ad02-c3d883b3ffc8" style="height:100%; width:600px;"></div> </div>
-<div class="paragrah">
-<p>Hospital beds per hundred and stringency index have a strong negative correlation (-0.88). It
+        <div class="section">
+            <div class="content">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t6">CONTACT NETWORK</h1>
+                    <div id="heatmapjs">
+                        <div class="plotly-graph-div" id="8656d986-a0eb-4e9c-ad02-c3d883b3ffc8"
+                            style="height:100%; width:600px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>Hospital beds per hundred and stringency index have a strong negative correlation (-0.88). It
                             is understandable because countries which have a good health facilities tend to be more
                             confident and therefore they usually do not maintain strict social distancing rules.
                         </p>
-<p>Stringency index also has a strong negative correlation with people vaccinated and people
+                        <p>Stringency index also has a strong negative correlation with people vaccinated and people
                             fully vaccinated. The general approach of countries in the world : they will prioritize
                             economic
                             benefit after vaccination process has been conducted to some extent. Empirical study showed
@@ -383,34 +404,37 @@
                             high
                             (-0.66).
                         </p>
-<p>Healthcare facilities also play an important role in reducing mortality rate. The heatmap
+                        <p>Healthcare facilities also play an important role in reducing mortality rate. The heatmap
                             shows that correlations between hospital beds per thousand and new cases or new deaths are
                             both
                             around -0.5.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content_right">
-<div class="pack">
-<h1 class="sectiontitle" id="t7">STABILITY</h1>
-<div id="boxplotjs"> <div class="plotly-graph-div" id="83bce952-007c-4055-a7d7-d0a8b2e53fa5" style="height:550px; width:750px;"></div> </div>
-<div class="paragrah">
-<p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content_right">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t7">STABILITY</h1>
+                    <div id="boxplotjs">
+                        <div class="plotly-graph-div" id="83bce952-007c-4055-a7d7-d0a8b2e53fa5"
+                            style="height:550px; width:750px;"></div>
+                    </div>
+                    <div class="paragrah">
+                        <p>
                             Box plot shows the number of new vaccines, new deaths and new cases of 8 selected regions
                             with
                             log scale.
                         </p>
-<p>
+                        <p>
                             Generally, regions which have high infection rate would automatically have huge new deaths
                             and
                             new vaccinations. But the difference is each regions have their own features relating to
                             pandemic response, social economic development, culture, government policy so we can see the
                             difference volatilities in three measures.
                         </p>
-<p>In reference to Western Europe and Southern Europe, daily doses of vaccines have been
+                        <p>In reference to Western Europe and Southern Europe, daily doses of vaccines have been
                             injected
                             stably at around 100000 doses everyday. Vaccination has not reduced new cases substantially
                             so
@@ -429,90 +453,101 @@
                             This
                             leads to an increase in new cases detected.
                         </p>
-<p>East Asia, as mentioned before, have late access to vaccines. However, with stringent policy
+                        <p>East Asia, as mentioned before, have late access to vaccines. However, with stringent policy
                             and fast vaccination speed, East Asia have succeeded in combating the pandemic and show how
                             effective vaccines can be.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div class="content_right">
-<div class="pack">
-<h1 class="sectiontitle" id="t8">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="content_right">
+                <div class="pack">
+                    <h1 class="sectiontitle" id="t8">
                         Summary</h1>
-<div class="paragrah">
-<p class="summary">
-                            8 main graphs have show that vaccines have been playing a major role in
-                            combating with the pandemic. We can say that vaccines have been an
-                            effective cure to reduce number of people suffering in pandemic, especially
-                            new deaths.We are expected to continue living with Covid-19, at least in the near future.
-                            However, in long run, the situation can be improved with upgrade in
-                            healthcare facilities, gdp per capita, human development index or advent of
-                            more effective vaccines. That would be the end of pandemic which has
-                            lasted for more than 2 years.
+                    <div class="paragrah">
+                        <p>
+                            To sum up, economic ability and healthcare facilities did help combating the viruses.
+                            Regions that have high GDP per capita or hospital beds per thousand have performed better
+                            than those with lower index. Whereas, level of government response via stringency index did
+                            not show obvious effect in containing the spread of Covid 19.
                         </p>
-</div>
-</div>
-</div>
-</div>
-<div class="section">
-<div id="endpage">
-<div id="source">
-<b class="eheader">Data Source </b>
-<img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-data-science-kiranshastry-lineal-color-kiranshastry.png" style="height: 25px;width: 25px;"/>
-<p class="etext">
-                        The data source is sponsored by Our World In Data (<a href="https://ourworldindata.org/coronavirus">owid</a>)
+                        <p>
+                            The effect of vaccines can be various among regions in the world due to the difference in
+                            their economic ability, government response. Some regions witnessed the effect in short-term
+                            after vaccination, but there are some regions could not see the effect until at least months
+                            after herd immunity.
+                        </p>
+                        <p> From the analysis of 7 main graphs, it can be showed that vaccines have been playing a
+                            major role in combating with the pandemic. We can say that vaccines have been an effective
+                            cure to reduce number of people suffering in pandemic, especially new deaths.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div id="endpage">
+                <div id="source">
+                    <b class="eheader">Data Source </b>
+                    <img src="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/64/000000/external-database-data-science-kiranshastry-lineal-color-kiranshastry.png"
+                        style="height: 25px;width: 25px;" />
+                    <p class="etext">
+                        The data source is sponsored by Our World In Data (<a
+                            href="https://ourworldindata.org/coronavirus">owid</a>)
                         a large organization and the data is updated daily and
-                        used by google search engines as a source of information for vaccine tracker.<br/>
+                        used by google search engines as a source of information for vaccine tracker.<br />
                         The data used in this dataset is from February 24, 2020 to November 2, 2021.
                     </p>
-</div>
-<div id="team">
-<b class="eheader">Team </b>
-<img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-team-business-and-finance-sbts2018-flat-sbts2018.png" style="height: 20px;width: 20px;"/>
-<p class="etext">
-                        Nguyễn Bá Cử, <i>K204131817</i>, Coder<br/>
-                        Nguyễn Thị Thanh Thanh, <i>K204131848</i>, Translator <br/>
-                        Lê Quang Bảo, <i>K204130617</i>, Team leader <br/>
-                        Trần Quốc Vẹn, <i>K204131867</i>, Contributors<br/>
-                        Phạm Đức Tín, <i>K204131860</i>, Analyst <br/>
-                        Bùi Ngọc Mai Linh, <i>K204131830</i>, Analyst<br/>
-                        Trần Xuân Khôi, <i>K204130622</i>, Contributors<br/>
-                        Lê Tâm Thuật, <i>K204131856</i>, Contributors <br/><br/>
+                </div>
+                <div id="team">
+                    <b class="eheader">Team </b>
+                    <img src="https://img.icons8.com/external-sbts2018-flat-sbts2018/58/000000/external-team-business-and-finance-sbts2018-flat-sbts2018.png"
+                        style="height: 20px;width: 20px;" />
+                    <p class="etext">
+                        Nguyễn Bá Cử, <i>K204131817</i>, Coder<br />
+                        Nguyễn Thị Thanh Thanh, <i>K204131848</i>, Translator <br />
+                        Lê Quang Bảo, <i>K204130617</i>, Team leader <br />
+                        Trần Quốc Vẹn, <i>K204131867</i>, Contributors<br />
+                        Phạm Đức Tín, <i>K204131860</i>, Analyst <br />
+                        Bùi Ngọc Mai Linh, <i>K204131830</i>, Analyst<br />
+                        Trần Xuân Khôi, <i>K204130622</i>, Contributors<br />
+                        Lê Tâm Thuật, <i>K204131856</i>, Contributors <br /><br />
                         At University of Economics and Law <a href="https://www.uel.edu.vn/">UEL</a>
-<br/><br/>
-<img alt=" University of Economics and Law" id="logoshool" src="./icon/uel.png"/>
-<br/><br/>
-<b id="repoinfo">Our repository now is available on <a href="https://github.com/NgcuHandsome/k20DatVizLab">Github</a>
-<object data="./icon/github.svg" id="githubicon" type="image/svg+xml"></object></b>
-</p>
-</div>
-<div id="tools">
-<b class="eheader">Tools </b>
-<img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-tool-cloud-technology-wanicon-lineal-color-wanicon.png" style="height: 25px;width: 25px;"/>
-<p class="etext">
-<a href="https://plotly.com/python/">Ploty python</a> To draw chart and export to html object.
-                        <br/>
-<a href="https://alvarotrigo.com/fullPage/">Fullpage js</a> To create a scrolling layout for the
-                        page.
-                        <br/>
-<a href="https://animate.style/">Animate.css</a> To create animation.
-                        <br/>
-<a href="https://icons8.com/icon/XVmgb2sGpWE4/team">Icons8</a> for icon on this report.
+                        <br /><br />
+                        <img alt=" University of Economics and Law" id="logoshool" src="./icon/uel.png" />
+                        <br /><br />
+                        <b id="repoinfo">Our repository now is available on <a
+                                href="https://github.com/NgcuHandsome/k20DatVizLab">Github</a>
+                            <object data="./icon/github.svg" id="githubicon" type="image/svg+xml"></object></b>
                     </p>
-</div>
-</div>
-</div>
-</div>
-<script src="./fullpageoption.js" type="text/javascript"></script>
-<script src="./chartjs/geomap.js"></script>
-<script src="./chartjs/barchart.js"></script>
-<script src="./chartjs/linechart.js"></script>
-<script src="./chartjs/radarchart.js"></script>
-<script src="./chartjs/piechart.js"></script>
-<script src="./chartjs/heatmap.js"></script>
-<script src="./chartjs/boxplot.js"></script>
-<script src="./chartjs/sunburst.js"></script>
-<script src="./index.js"></script>
+                </div>
+                <div id="tools">
+                    <b class="eheader">Tools </b>
+                    <img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-tool-cloud-technology-wanicon-lineal-color-wanicon.png"
+                        style="height: 25px;width: 25px;" />
+                    <p class="etext">
+                        <a href="https://plotly.com/python/">Ploty python</a> To draw chart and export to html object.
+                        <br />
+                        <a href="https://alvarotrigo.com/fullPage/">Fullpage js</a> To create a scrolling layout for the
+                        page.
+                        <br />
+                        <a href="https://animate.style/">Animate.css</a> To create animation.
+                        <br />
+                        <a href="https://icons8.com/icon/XVmgb2sGpWE4/team">Icons8</a> for icon on this report.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./fullpageoption.js" type="text/javascript"></script>
+    <script src="./chartjs/geomap.js"></script>
+    <script src="./chartjs/barchart.js"></script>
+    <script src="./chartjs/linechart.js"></script>
+    <script src="./chartjs/radarchart.js"></script>
+    <script src="./chartjs/piechart.js"></script>
+    <script src="./chartjs/heatmap.js"></script>
+    <script src="./chartjs/boxplot.js"></script>
+    <script src="./chartjs/sunburst.js"></script>
+    <script src="./index.js"></script>
 </body>
