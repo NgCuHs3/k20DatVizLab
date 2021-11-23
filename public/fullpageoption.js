@@ -4,7 +4,6 @@ var myFullpage = new fullpage('#fullpage', {
     lockAnchors: false,
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ['firstPage', 'secondPage', 'thirdPage', 'fourPage', 'fifPage', 'sixPage', 'seventhPage'],
     showActiveTooltip: false,
     slidesNavigation: false,
     slidesNavPosition: 'bottom',
